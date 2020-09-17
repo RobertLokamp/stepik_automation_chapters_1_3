@@ -17,7 +17,7 @@ try:
 
     file = browser.find_element_by_id('file')
     current_dir = os.path.abspath(os.path.dirname(__file__))  # получаем путь к директории текущего исполняемого файла
-    file_path = os.path.join(current_dir, 'l8_s6_test.txt')  # добавляем к этому пути имя файла
+    file_path = os.path.join(current_dir, 'l2.2_s8_test.txt')  # добавляем к этому пути имя файла
     file.send_keys(file_path)
 
     # Отправляем заполненную форму
