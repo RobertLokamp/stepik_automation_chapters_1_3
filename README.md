@@ -2,10 +2,10 @@
 tasks from the course on automation testing https://stepik.org/course/575/
 
 
-###Полезные ссылки
+### Полезные ссылки
 
 
-####Общее
+#### Общее
 
 [Установка Python, Selenium и WebDriver](https://stepik.org/lesson/25969/step/1)
 <https://selenium-python.com/>
@@ -19,7 +19,7 @@ tasks from the course on automation testing https://stepik.org/course/575/
 [2. Полезные методы Selenium](https://stepik.org/lesson/165493/step/1?unit=140087)
 
 
-####Ожидания в Selenium WebDriver
+#### Ожидания в Selenium WebDriver
 
 <https://docs.seleniumhq.org/docs/04_webdriver_advanced.jsp>
 <https://selenium-python.readthedocs.io/waits.html>
@@ -30,7 +30,7 @@ tasks from the course on automation testing https://stepik.org/course/575/
 <http://barancev.github.io/page-loading-complete/>
 
 
-####Git
+#### Git
 
 [отличный интерактивный туториал](https://learngitbranching.js.org/)
 [лучшая книга вообще](https://git-scm.com/book/ru/v2/) 
@@ -42,14 +42,14 @@ tasks from the course on automation testing https://stepik.org/course/575/
 [как писать хорошие сообщения о коммитах](http://frontiermag.ru/commit-message.html)
 
 
-####Тестирование веб-приложений
+#### Тестирование веб-приложений
 
 [инструменты для тестирования кода в Python](https://realpython.com/python-testing/)
 [Пирамида тестов на практике](https://habr.com/ru/post/358950/)
 [Документация unittest](https://docs.python.org/3/library/unittest.html)
 
 
-####Использование фикстур в PyTest
+#### Использование фикстур в PyTest
 
 [Фикстуры - определения](https://en.wikipedia.org/wiki/Test_fixture#Software)
 [Фикстуры в PyTest](https://docs.pytest.org/en/latest/fixture.html#pytest-fixtures-explicit-modular-scalable)
@@ -60,7 +60,7 @@ tasks from the course on automation testing https://stepik.org/course/575/
 [Skip and xfail: dealing with tests that cannot succeed](https://docs.pytest.org/en/latest/skipping.html)
 
 
-####Параметризация, конфигурирование, плагины
+#### Параметризация, конфигурирование, плагины
 
 [Parametrizing fixtures and test functions](https://docs.pytest.org/en/latest/parametrize.html)
 [Инструкции по установке geckodriver](https://selenium-python.com/install-geckodriver)
@@ -70,13 +70,13 @@ tasks from the course on automation testing https://stepik.org/course/575/
 [Настройка вывода PyTest](https://docs.pytest.org/en/latest/usage.html#modifying-python-traceback-printing)
 
 
-####ООП
+#### ООП
  
 <https://stepik.org/lesson/24461/step/1?unit=6767>
 <https://tproger.ru/translations/oop-principles-cheatsheet/>
 
 
-####Code Style
+#### Code Style
 
 <https://docs.python-guide.org/writing/style/>
 <https://www.python.org/dev/peps/pep-0008/>
@@ -86,7 +86,7 @@ tasks from the course on automation testing https://stepik.org/course/575/
 <https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html>
 
 
-####POM
+#### POM
  
 <https://page-objects.readthedocs.io>
 <https://selenium-python.readthedocs.io/page-objects.html>
@@ -95,32 +95,32 @@ tasks from the course on automation testing https://stepik.org/course/575/
 <https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b>
 
 
-####Исключения
+#### Исключения
  
 <http://pythonworld.ru/tipy-dannyx-v-python/isklyucheniya-v-python-konstrukciya-try-except-dlya-obrabotki-isklyuchenij.html>
 
 
-####Splinter
+#### Splinter
 
 [Документация](https://splinter.readthedocs.io/en/latest/index.html)
 [Код](https://github.com/cobrateam/splinter)
 [Код и документация pytest-splinter](https://github.com/pytest-dev/pytest-splinter)
 
 
-####Selene
+#### Selene
 
 [Документация](https://selene-docs-test.readthedocs.io/en/latest/introduction.html)
 [Код](https://github.com/yashaka/selene)
 [Презентация](https://www.youtube.com/watch?v=BzfOeHJrguQ)
 
 
-####PyPOM
+#### PyPOM
 
 [Документация](https://pypom.readthedocs.io/en/latest/)
 [Код](https://github.com/mozilla/PyPOM)
 
 
-####Webium
+#### Webium
 
 [Документация](http://wgnet.github.io/webium/)
 [Код](https://github.com/wgnet/webium)
@@ -129,7 +129,7 @@ tasks from the course on automation testing https://stepik.org/course/575/
 
 
 
-###Pytest как использовать несколько фикстур, вспомогательные функции и классы вместе (взято [отсюда](https://github.com/JakUi/stepik-auto-tests-course/blob/master/%D0%A4%D0%B8%D0%BA%D1%81%D1%82%D1%83%D1%80%D1%8B%20%D0%B8%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B.txt)
+### Pytest как использовать несколько фикстур, вспомогательные функции и классы вместе (взято [отсюда](https://github.com/JakUi/stepik-auto-tests-course/blob/master/%D0%A4%D0%B8%D0%BA%D1%81%D1%82%D1%83%D1%80%D1%8B%20%D0%B8%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B.txt)
 
 Предусловия: браузер открываем и закрываем фикстурой, используются вспомогательные функции (например для входа в аккаунт)
 
